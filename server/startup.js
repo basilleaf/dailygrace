@@ -1,6 +1,11 @@
 var testData=
 [
- {"content": ["Coke Farm is a 200+ acre farm near Aromas, CA about 75 miles from San Francisco, harvesting over 50 crop varieties, has been producing organically grown fruits and vegetables for over 30 years. "],
+ {"content": ["Chef Alex Chevillot has worked with Rebbeca Jean Catering for 2 years. He's a 5th generation chef from Sonoma county, he trained in France for a year, and has live in San Francisco for 7 years."],
+  "images": ["https://dchtm6r471mui.cloudfront.net/hackpad.com_4FBHS7JAJmb_p.91596_1384722528415_alex.jpeg","http://rebeccajeancatering.com/wp-content/uploads/2013/01/Meritech7.jpg","http://rebeccajeancatering.com/wp-content/uploads/2013/01/Meritech11.jpg"],
+  "items": ["Preparation"],
+  "producer": "Rebecca Jean Catering",
+  "url": "http://www.rebeccajeancatering.com"},
+{"content": ["Coke Farm is a 200+ acre farm near Aromas, CA about 75 miles from San Francisco, harvesting over 50 crop varieties, has been producing organically grown fruits and vegetables for over 30 years. "],
   "images": ["https://dchtm6r471mui.cloudfront.net/hackpad.com_4FBHS7JAJmb_p.91541_1384651002016_coke-family.jpg", "https://dchtm6r471mui.cloudfront.net/hackpad.com_4FBHS7JAJmb_p.91541_1384651047715_Coke%20Farm%20Team.jpg","https://dchtm6r471mui.cloudfront.net/hackpad.com_4FBHS7JAJmb_p.91543_1384674501626_Screen%20Shot%202013-11-16%20at%2010.17.01%20PM.png"],
   "items": ["Organic Green Cabbage"],
   "producer": "Coke Farm",
