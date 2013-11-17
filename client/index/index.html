@@ -27,23 +27,29 @@
 
 <template name="profile">
 	<div class="profile" pid="{{_id}}">
-		<div class="title">
-			<a href="{{url}}">{{producer}}</a>
-		</div>
-		<div class="content">
-			{{content}}
-		</div>
+        <div class = "title">
+    		<a href="{{url}}">
+                <button type="button" class="btn btn-primary btn-lg btn-block">
+    			  {{producer}}
+    		    </button>
+            </a>
+        </div>
 		{{#constant}}
 			{{>image_carousel}}
 		{{/constant}}
-		<div>
+		<div class = "likes">
 			<button type="button" class="btn btn-default btn-lg btn-like">
 			  <span class="glyphicon glyphicon-heart">{{likes}}</span>
-			</button>			
+			</button>
 			<button type="button" class="btn btn-default btn-lg btn-gift">
 			  <span class="glyphicon glyphicon-gift"></span>
 			</button>
 		</div>
+
+        <div class="content">
+            {{content}}
+        </div>
+
 	</div>
 </template>
 

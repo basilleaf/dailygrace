@@ -10,6 +10,7 @@ img{
 	height: 300px;
 }
 .profile{
+    -webkit-overflow-scrolling: touch;
 	text-align: center;
 	clear:both;
 }
@@ -18,4 +19,19 @@ img{
 }
 #profiles{
 	margin: 5px;
+}
+.title button{
+    background-color: #662244;
+    margin-bottom:5px;
+}
+.content {
+    text-align:left;
+    padding:15px 10px;
+    margin:0;
+    margin-bottom:20px;
+}
+.likes button{
+    padding:5px;
+    margin:0px 3px;
+
 }
