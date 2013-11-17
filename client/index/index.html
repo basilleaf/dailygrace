@@ -30,13 +30,6 @@
 
 <template name="profile">
 	<div class="profile" pid="{{_id}}">
-        <div class = "title">
-    		<a href="{{url}}">
-                <button type="button" class="btn btn-primary btn-lg btn-block">
-    			  {{producer}}
-    		    </button>
-            </a>
-        </div>
 		{{#constant}}
 			{{>image_carousel}}
 		{{/constant}}
@@ -52,6 +45,16 @@
         <div class="content">
             {{content}}
         </div>
+
+        <div class = "title">
+            <a href="{{url}}">
+                <button type="button" class="btn btn-primary btn-lg btn-block">
+                  {{producer}}
+                </button>
+            </a>
+        </div>
+
+        <hr>
 
 	</div>
 </template>

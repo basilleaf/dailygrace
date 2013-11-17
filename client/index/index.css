@@ -29,15 +29,16 @@ img{
 }
 .title button{
     background-color: #b95656;
+    margin:0;
     margin-bottom:5px;
-    font-size:23px;
+    font-size:18px;
     font-weight:bold;
 }
 .content {
     text-align:left;
     padding:15px 10px;
     margin:0;
-    margin-bottom:20px;
+    margin-bottom:5px;
 }
 .likes button{
     padding:5px;
