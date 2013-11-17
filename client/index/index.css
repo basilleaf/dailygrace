@@ -6,8 +6,8 @@ body{
 	padding: 0px;
 }
 img{
-	width: 300px;
-	height: 300px;
+	max-width: 300px;
+	max-height: 300px;
 }
 .profile{
     -webkit-overflow-scrolling: touch;
@@ -21,8 +21,10 @@ img{
 	margin: 5px;
 }
 .title button{
-    background-color: #662244;
+    background-color: #b95656;
     margin-bottom:5px;
+    font-size:23px;
+    font-weight:bold;
 }
 .content {
     text-align:left;
